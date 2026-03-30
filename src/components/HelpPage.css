@@ -1,0 +1,159 @@
+/* ── Overlay plein écran ──────────────────────────────────────────────────── */
+.help-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(6, 8, 14, 0.96);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+/* ── Carte centrale ───────────────────────────────────────────────────────── */
+.help-card {
+  width: 100%;
+  max-width: 760px;
+  background: rgba(18, 20, 28, 0.98);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 2.5rem 3rem;
+  color: #d8d8e0;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
+}
+
+/* ── Titre ────────────────────────────────────────────────────────────────── */
+.help-title {
+  text-align: center;
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin: 0 0 2.25rem;
+}
+
+/* ── Grille deux colonnes ─────────────────────────────────────────────────── */
+.help-grid {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  gap: 0 2rem;
+}
+
+.help-divider {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+@media (max-width: 580px) {
+  .help-card {
+    padding: 1.75rem 1.25rem;
+  }
+  .help-grid {
+    grid-template-columns: 1fr;
+  }
+  .help-divider {
+    height: 1px;
+    width: 100%;
+    margin: 1.25rem 0;
+  }
+}
+
+/* ── Section ──────────────────────────────────────────────────────────────── */
+.help-section-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0 0 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.help-icon {
+  font-size: 1rem;
+}
+
+/* ── Liste de commandes ───────────────────────────────────────────────────── */
+.help-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.help-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+/* ── Touches clavier ──────────────────────────────────────────────────────── */
+.help-keys {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.help-key-group {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+kbd {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.22);
+  border-radius: 5px;
+  padding: 0.18em 0.55em;
+  font-family: ui-monospace, 'SF Mono', monospace;
+  font-size: 0.78rem;
+  color: #e4e4f0;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
+.help-or {
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.3);
+  padding: 0 0.1rem;
+}
+
+/* ── Geste souris / molette ───────────────────────────────────────────────── */
+.help-mouse {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: #c0c0d0;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 0.18em 0.55em;
+  width: fit-content;
+}
+
+/* ── Description de l'action ─────────────────────────────────────────────── */
+.help-action {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.45);
+  padding-left: 0.1rem;
+}
+
+/* ── Pied de page ─────────────────────────────────────────────────────────── */
+.help-footer {
+  margin: 2rem 0 0;
+  text-align: center;
+  font-size: 0.83rem;
+  color: rgba(255, 255, 255, 0.3);
+  line-height: 1.5;
+}
+
+.help-footer strong {
+  color: rgba(255, 255, 255, 0.55);
+}

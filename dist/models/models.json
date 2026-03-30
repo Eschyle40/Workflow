@@ -1,0 +1,59 @@
+[
+  {
+    "id": "chapiteau9",
+    "path": "/models/gltf/Chapiteau_9_ultra_final.glb",
+    "position": [0, 0, 0],
+    "rotation": [1.5708, 3.14, 0],
+    "scale": 1,
+    "castShadow": true,
+    "receiveShadow": true,
+    "enableCollisions": false
+  },
+  {
+    "id": "chapiteau10",
+    "path": "/models/gltf/Chapiteau_10_ultra_final.glb",
+    "position": [0, 0, 0],
+    "rotation": [1.5708, 3.14, 0],
+    "scale": 1,
+    "castShadow": true,
+    "receiveShadow": true,
+    "enableCollisions": false
+  },
+  {
+    "id": "bas-relief",
+    "path": "/models/gltf/Bas_relief_2_ultra_texture.glb",
+    "position": [0, 0, 0],
+    "rotation": [0, 0, 0],
+    "scale": 7.5,
+    "castShadow": true,
+    "receiveShadow": true,
+    "enableCollisions": false
+  },
+  {
+    "id": "socle",
+    "path": "/models/gltf/socle.glb",
+    "position": [0, 0, 0],
+    "rotation": [0, 1.5708, 0],
+    "scale": 1,
+    "castShadow": true,
+    "receiveShadow": true,
+    "enableCollisions": true
+  },
+  {
+    "id": "main-opt",
+    "path": "/models/gltf/main-opt.glb",
+    "position": [0, 0, 0],
+    "rotation": [1.5708, 3.14, 0],
+    "scale": 1,
+    "castShadow": true,
+    "receiveShadow": true,
+    "enableCollisions": false,
+    "marker": {
+      "lat": 43.722216,
+      "lon": -1.0546908723907467,
+      "altitude": 0,
+      "scale": 100,
+      "rotation": [1.5708, 3.14, 0]
+    }
+  }
+]

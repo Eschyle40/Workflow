@@ -1,0 +1,30 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.physics-reset-btn {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 100;
+  padding: 0.55rem 1.1rem;
+  background: rgba(20, 20, 30, 0.75);
+  color: #e8d9b0;
+  border: 1px solid rgba(232, 217, 176, 0.35);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: background 0.2s, transform 0.1s;
+}
+
+.physics-reset-btn:hover {
+  background: rgba(40, 35, 20, 0.9);
+  transform: scale(1.04);
+}
+
+.physics-reset-btn:active {
+  transform: scale(0.97);
+}

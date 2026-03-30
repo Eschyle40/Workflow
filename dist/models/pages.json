@@ -1,0 +1,80 @@
+[
+  {
+    "id": "help",
+    "name": "Commandes",
+    "category": "Aide",
+    "controls": "help",
+    "models": []
+  },
+  {
+    "id": "chapiteau9",
+    "name": "Chapiteau 9",
+    "category": "Chapiteaux",
+    "controls": "fps",
+    "models": ["chapiteau9"],
+    "cameraPosition": [0, 3, 12],
+    "orbitTarget": { "x": 0, "y": 1, "z": 0 }
+  },
+  {
+    "id": "chapiteau10",
+    "name": "Chapiteau 10",
+    "category": "Chapiteaux",
+    "controls": "orbit",
+    "mergeGeometry": true,
+    "models": ["chapiteau10"],
+    "cameraPosition": [0, 3, 12],
+    "orbitTarget": { "x": 0, "y": 1, "z": 0 }
+  },
+  {
+    "id": "bas-relief",
+    "name": "Bas-relief",
+    "category": "Sculptures",
+    "controls": "orbit",
+    "mergeGeometry": true,
+    "models": ["bas-relief"],
+    "cameraPosition": [0, 5, 20],
+    "orbitTarget": { "x": 0, "y": 4, "z": 0 }
+  },
+  {
+    "id": "carte",
+    "name": "Plan urbain",
+    "category": "Cartographie",
+    "controls": "geojson",
+    "geojson": "/models/geojson/sample.geojson",
+    "mergeGeometry": true,
+    "cameraPosition": [0, 200, 280],
+    "orbitTarget": { "x": 0, "y": 10, "z": 0 }
+  },
+  {
+    "id": "departements",
+    "name": "Départements",
+    "category": "Cartographie",
+    "controls": "geojson",
+    "geojson": "/departements.geojson",
+    "mergeGeometry": true,
+    "shadows": false,
+    "ground": false,
+    "scale": 0.001,
+    "cameraPosition": [0, 9000, 9000],
+    "orbitTarget": { "x": 0, "y": 0, "z": 0 },
+    "markers": ["main-opt"]
+  },
+  {
+    "id": "arche",
+    "name": "Arche romaine",
+    "category": "Explorations",
+    "controls": "physics",
+    "cameraPosition": [0, 4.5, 14],
+    "orbitTarget": { "x": 0, "y": 3.5, "z": 0 }
+  },
+  {
+    "id": "terrain",
+    "name": "Terrain",
+    "category": "Explorations",
+    "controls": "toggle",
+    "models": ["socle", "main-opt"],
+    "startPosition": [0, 10, 0],
+    "cameraPosition": [15, 10, 25],
+    "orbitTarget": { "x": 0, "y": 2, "z": 0 }
+  }
+]

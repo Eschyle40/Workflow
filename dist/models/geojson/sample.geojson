@@ -1,0 +1,167 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [2.3490, 48.8554], [2.3508, 48.8554],
+          [2.3508, 48.8570], [2.3490, 48.8570],
+          [2.3490, 48.8554]
+        ]]
+      },
+      "properties": { "leisure": "park", "name": "Parc central" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [2.3512, 48.8556], [2.3526, 48.8556],
+          [2.3526, 48.8566], [2.3512, 48.8566],
+          [2.3512, 48.8556]
+        ]]
+      },
+      "properties": { "building": "yes", "height": 18, "name": "Immeuble A" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [2.3528, 48.8556], [2.3537, 48.8556],
+          [2.3537, 48.8563], [2.3528, 48.8563],
+          [2.3528, 48.8556]
+        ]]
+      },
+      "properties": { "building": "yes", "height": 34, "name": "Tour Nord" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [2.3528, 48.8565], [2.3542, 48.8565],
+          [2.3542, 48.8572], [2.3528, 48.8572],
+          [2.3528, 48.8565]
+        ]]
+      },
+      "properties": { "building": "yes", "height": 9, "name": "Commerce" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [2.3539, 48.8556], [2.3552, 48.8556],
+          [2.3552, 48.8564], [2.3539, 48.8564],
+          [2.3539, 48.8556]
+        ]]
+      },
+      "properties": { "building": "yes", "height": 14, "name": "Résidence Est" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [2.3539, 48.8566], [2.3553, 48.8566],
+          [2.3553, 48.8573], [2.3539, 48.8573],
+          [2.3539, 48.8566]
+        ]]
+      },
+      "properties": { "building": "yes", "height": 7, "name": "Annexe" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [2.3512, 48.8573], [2.3526, 48.8573],
+          [2.3526, 48.8580], [2.3512, 48.8580],
+          [2.3512, 48.8573]
+        ]]
+      },
+      "properties": { "building": "yes", "building:levels": 5, "name": "Immeuble B" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [2.3490, 48.8546], [2.3508, 48.8546],
+          [2.3508, 48.8551], [2.3490, 48.8551],
+          [2.3490, 48.8546]
+        ]]
+      },
+      "properties": { "building": "yes", "height": 6, "name": "Entrepôt" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [2.3529, 48.8574], [2.3553, 48.8574],
+          [2.3553, 48.8581], [2.3529, 48.8581],
+          [2.3529, 48.8574]
+        ]]
+      },
+      "properties": { "building": "yes", "height": 11, "name": "Immeuble C" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [2.3483, 48.8564], [2.3558, 48.8564]
+        ]
+      },
+      "properties": { "highway": "primary", "name": "Rue Principale" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [2.3521, 48.8542], [2.3521, 48.8586]
+        ]
+      },
+      "properties": { "highway": "secondary", "name": "Avenue du Centre" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [2.3483, 48.8553], [2.3558, 48.8553]
+        ]
+      },
+      "properties": { "highway": "residential" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [2.3509, 48.8542], [2.3509, 48.8586]
+        ]
+      },
+      "properties": { "highway": "residential" }
+    }
+
+  ]
+}
